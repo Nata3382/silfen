@@ -5,6 +5,7 @@ a {
   color: black;
   text-decoration: none;
   font-weight: medium;
+  text-transform: capitalize;
 }
 
 a:hover {

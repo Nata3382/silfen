@@ -292,7 +292,7 @@ section.products {
   margin-right: 70px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: 100px;
+  gap: 70px;
   padding-bottom: 150px;
 }
 
@@ -309,6 +309,10 @@ section.products {
   font-family: manrope;
   font-size: 13px;
   letter-spacing: 1px;
+}
+
+.product_article {
+  margin-bottom: 60px;
 }
 
 div.color_circle {

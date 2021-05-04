@@ -335,7 +335,10 @@ div.color_wrapper {
 #bag_info p {
   font-family: manrope;
   letter-spacing: 1;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  line-height: 1.7;
+  max-width: 400px;
+  font-size: 13px;
 }
 
 button#add_to_cart:hover {
@@ -398,7 +401,7 @@ section.suggestions h3 {
   letter-spacing: 1px;
   padding-bottom: 20px;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .slider {
