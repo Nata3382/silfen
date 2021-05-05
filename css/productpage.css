@@ -164,10 +164,6 @@ header {
   z-index: 2;
 }
 
-.links {
-  margin-top: -430px;
-}
-
 nav {
   display: flex;
   z-index: 1;
