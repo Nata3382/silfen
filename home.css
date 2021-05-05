@@ -174,7 +174,7 @@ nav {
   display: flex;
   z-index: 1;
   overflow: hidden;
-  height: 500px;
+  height: 300px;
   width: 800px;
 }
 
@@ -258,6 +258,7 @@ nav ul li:hover > ul {
 
 .socialig {
   zoom: 2;
+  z-index: 2;
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
@@ -325,6 +326,10 @@ nav ul li:hover > ul {
 
 .imagefour {
   padding-right: 2em;
+}
+
+.imagefive {
+  transform: rotate(15deg);
 }
 
 .imageone:hover:after {
@@ -484,5 +489,20 @@ button:hover {
 @media screen and (max-width: 720px) {
   .newsletterForm {
     margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  nav ul ul {
+    width: 100px;
+    height: 1000px;
+  }
+
+  nav ul ul li {
+    width: 50px;
+
+    display: list-item;
+    display: inline-block;
+    display: inline;
   }
 }

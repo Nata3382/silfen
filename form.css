@@ -5,7 +5,6 @@ a {
   color: black;
   text-decoration: none;
   font-weight: medium;
-  text-transform: capitalize;
 }
 
 a:hover {
@@ -159,6 +158,7 @@ form label {
   margin-top: 20px;
   font-size: 15px;
   margin-left: -19.5rem;
+  font-family: manrope, sand-serif;
 }
 
 .phoneNumber {
@@ -166,16 +166,21 @@ form label {
 }
 
 button {
-  background-color: #707070;
-  color: white;
-  border-radius: 20px;
+  background-color: #eeeca9;
+  color: black;
+  border-radius: 10px;
   margin: 2rem;
   outline: none;
   width: 160px;
-  height: 35px;
+  height: 50px;
   border: none;
   opacity: 80%;
+  padding: 1em;
   font-size: 15px;
+  font-family: manrope, sand-serif;
+  font-weight: bold;
+  text-align: center;
+  align-content: center;
 }
 
 button:hover {
@@ -239,6 +244,7 @@ button:hover {
   font-size: 1.125rem;
   font-weight: 500;
   text-align: center;
+  color: black;
 }
 
 #footer-email {
@@ -274,6 +280,84 @@ button:hover {
   transition: all 0.4s ease-out;
 }
 
+.parentcart {
+  margin: 2em 15em 10em 15em;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.texttwo {
+  margin-left: 3em;
+}
+
+.textthree {
+  margin-left: 3em;
+}
+
+.textfour {
+  margin-left: 3em;
+}
+
+.itemtwo {
+  padding-left: 3em;
+  display: flex;
+  flex-direction: row;
+}
+
+.itemthree {
+  padding-left: 3em;
+  display: flex;
+  flex-direction: row;
+}
+
+.itemfour {
+  padding-left: 3em;
+  display: flex;
+  flex-direction: row;
+}
+
+.subtotal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.checkout {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+}
+
+hr {
+  width: 100%;
+  text-align: left;
+  margin-left: 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-family: manrope, sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+h2 {
+  font-family: manrope, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+h3 {
+  font-family: manrope, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
 /* Responsiveness */
 
 @media screen and (max-width: 1150px) {
