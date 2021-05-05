@@ -22,6 +22,152 @@ p {
   font-size: 0.938rem;
 }
 
+/* NAV */
+li,
+a {
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  color: black;
+  text-decoration: none;
+  font-weight: medium;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h3 {
+  margin: 0px;
+  font-family: "Manrope", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+  margin: 0 -0.5em 0 -0.5em;
+
+  right: 0;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  z-index: 2;
+}
+
+.links {
+  margin-top: -430px;
+}
+
+nav {
+  display: flex;
+  z-index: 1;
+  overflow: hidden;
+  width: 800px;
+}
+
+.logo a {
+  margin: 0;
+}
+
+.logo {
+  cursor: pointer;
+  text-transform: none;
+  padding-left: 2em;
+  display: flex;
+}
+
+li a {
+  margin: 0;
+}
+
+.logo img {
+  padding: 0px;
+}
+
+.logo:hover {
+  text-decoration: none;
+}
+
+.nav_links {
+  list-style: none;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+.nav_links ul {
+  list-style: none;
+  margin-left: 0%;
+  padding-left: 0%;
+}
+
+nav ul ul {
+  position: absolute;
+
+  padding: 1em;
+  display: none;
+  background-color: #b2d9ea;
+  border-radius: 5px 5px 5px 5px;
+  z-index: 1;
+  width: 700px;
+}
+.nav_links ul li:hover > ul {
+  display: block;
+}
+
+nav ul ul li {
+  width: 150px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links ul li a {
+  display: block;
+  line-height: 40px;
+}
+
+.sociallink {
+  padding-right: 1em;
+  zoom: 2;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.socialig {
+  zoom: 2;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.links {
+  margin-right: 2em;
+}
+
+.navimg {
+  display: inline;
+  max-width: 20%;
+  float: right;
+  z-index: 1;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.navimgg {
+  max-width: 20%;
+  display: inline;
+}
+
 /* text intro */
 
 .textsustainability {

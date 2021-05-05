@@ -351,6 +351,15 @@ button#buy_now:hover {
   color: black;
 }
 
+button#buy_now a:hover {
+  color: black;
+  font-family: manrope;
+  font-weight: 450;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
 div.color_circle {
   background-color: black;
   height: 30px;
@@ -387,7 +396,15 @@ button {
 
 button#buy_now {
   background-color: black;
+}
+
+button#buy_now a {
   color: white;
+  font-family: manrope;
+  font-weight: 450;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-decoration: none;
 }
 
 section.suggestions {
